@@ -49,9 +49,11 @@ li a{
 .both{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .right{
     width: 600px;
+    max-width: 100%;
     height: 250px;
     background-color: rgba(229, 229, 229, 0.463);
     margin-top: 200px;
@@ -82,4 +84,69 @@ li a{
 .inside-box-text{
     margin-top: 60px;
     margin-left: 100px;
+}
+.navigation-2{
+    display: flex;
+}
+.second-section-containr{
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col3{
+    display: flex;
+    flex-direction: column;
+}
+.img-act{
+    padding-top: 40px;
+}
+.col1{
+    margin: auto;
+}
+@media screen and (max-width:700px) {
+    .both{
+      width: 100%;
+      margin-top: 0px;
+    }
+    .left{
+        width: 100%;
+        margin-left: 10px;
+        
+    }
+    .right{
+        width: 400px;
+        max-width: 100%;
+        height: 250px;
+        background-color: rgba(229, 229, 229, 0.463);
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .inside-box{
+        width: 350px;
+        max-width: 100%;
+    }
+    .inside-box-text span{
+        font-size: 30px;
+        font-weight: 600;
+        color: rgb(72, 72, 72);
+    }
+    .inside-box-text h1{
+        font-size: 30px;
+        color: rgb(72, 72, 72);
+    }
+    .inside-box-text h4{
+        font-size: 18px;
+        color: rgb(72, 72, 72);
+        
+    }
+    .inside-box-text{
+        
+    }
+    .nav{
+        display: none;
+    }
 }
