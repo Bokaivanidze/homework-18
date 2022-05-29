@@ -148,14 +148,57 @@ li a{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
-
-
-
-
-
-
-
+.blog-section{
+    background-color: rgba(204, 204, 204, 0.334);
+    margin-top: 100px;
+}
+.box-3{
+    width: 33.3%;
+    max-width: 100%;
+    
+}
+.box-item{
+    display: flex;
+    justify-content: center;
+}
+.container h1{
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+    color:rgb(91, 91, 91) ;
+    font-weight: 600;
+}
+.box-foot{
+    text-align: center;
+}
+.box-foot h2{
+    font-size: 20px;
+    padding-top: 20px;
+    color: rgb(105, 105, 105);
+}
+.box-foot p{
+    font-size: 14px;
+    color: rgb(133, 133, 133);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.box-5{
+    width: 50%;
+    max-width: 100%;
+}
+.box-5 h3{
+    padding-top: px;
+}
+.box-5 ul{
+    display: flex;
+    justify-content: end;
+    padding-top: 0px;
+    
+}
 
 @media screen and (max-width:700px) {
     .both{
@@ -210,9 +253,36 @@ li a{
     .col-5, .col-6, .col-4 {
         width: 100%;
       }
+    .box-3{
+        width: 100%;
+        max-width: 100%;
+    }
+    .box-5 ul{
+        display: flex;
+        justify-content: end;
+        padding-top: 0px;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .box-5 ul li{
+        padding-top: 10px;
+    }
+    .box-5 h3{
+        text-align: center;
+    }
+    .box-5{
+        width: 100%;
+        max-width: 100%;
+    }
 }
 @media (max-width: 600px) {
-    /* .col-5, .col-6, .col-4 {
-      width: 100%;
-    } */
+    .box-3{
+        width: 100%;
+        max-width: 100%;
+    }
+    .box-item img{
+        width: 100%;
+        max-width: 100%;
+    }
   }
