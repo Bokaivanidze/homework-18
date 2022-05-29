@@ -285,6 +285,9 @@ footer{
     .fa-bars{
         font-size: 35px;
     }
+    .logo{
+        padding-left: 20px;
+    }
 }
 @media (max-width: 600px) {
     .box-3{
@@ -377,5 +380,7 @@ footer{
       .fa-bars{
           font-size: 35px;
       }
-  
+      .logo{
+        padding-left: 20px;
+    }
   }
